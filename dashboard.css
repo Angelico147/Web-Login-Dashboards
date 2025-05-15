@@ -1,0 +1,172 @@
+/* --------NAVBAR------ */
+.nav-item{
+    font-size: 20px;
+}
+
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+.navbar-collapse{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ESTILOS GENERALES */
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: sans-serif;
+    font-weight: bolder;  
+    margin-bottom: 0px;
+}
+.seccion-descripcion{
+    text-align: center;
+    font-size: 1.5rem;
+    color:  #584e4e;
+}
+.titulo{
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.seccion-reportes{
+    font-size: 1.55rem;
+    font-family: sans-serif;
+   
+    
+
+}
+
+/*-------------- INICIO------------ */
+.container{
+    margin-top: 30px;
+}
+
+
+
+
+/* ---------------------IZQUIERDA --------------*/
+
+
+
+.datos-izquierda-inicio {
+    box-shadow: 2px 2px 2px 2px ; 
+       
+}
+.analitica-progreso{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+
+
+/* SUB IZQUIERDA */
+.data-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* ---------------------DERECHA -------------*/
+
+.datos-derecha-inicio div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 15px;
+  
+    
+}
+.datos-derecha-inicio {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: sta;
+    padding: 10px;
+   
+}
+.datos-derecha-inicio h2{
+    margin-bottom: 22px;
+}
+
+.dato-inicio{
+    background-color: aqua;
+    border: 5px;
+   
+}
+.datos-derecha-inicio div p{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+/* ------------REPORTES ---------*/
+
+.reportes{
+    padding: 50px 250px 50px 250px;
+    
+}
+
+.reportes h1{
+    text-align: center;
+}
+
+
+/* --INFORMACION--------- */
+
+.informacion{
+   margin-bottom: 50px;
+}
+
+.card{
+    box-shadow: 1px  2px  20px  1px ;
+}
+
+    
+    
+
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.75rem;
+}
+.card-text{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.card-body a:hover{
+    background-color: coral;
+    border: none;
+    padding: 10px;
+}
+/* SECCION NAVBAR */
+@media screen and (max-width: 767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-nav {
+    width: 100%;
+    justify-content: center !important;
+    text-align: center;
+  }
+
+  .navbar-nav .nav-item {
+    width: 100%;
+  }
+}
