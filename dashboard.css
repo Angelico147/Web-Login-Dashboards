@@ -79,7 +79,20 @@ li .nav-link{
    
 }
 
+.barra-progeso {
+      transition: transform 0.3s ease;
+}
 
+.barra-progeso:hover {
+      transform: scaleY(1.2); /* Agranda la barra en altura */
+}
+.barra-progeso .progress-bar {
+     transition: transform 0.3s ease;
+}
+
+.barra-progeso:hover .progress-bar {
+    transform: scaleY(1.1);
+}
 
 /* SUB IZQUIERDA */
 .data-img{
@@ -316,6 +329,19 @@ li .nav-link{
     .dato-inicio p{
        font-size: 1.5rem;
     }
+    .barra-progeso {
+      transition: transform 0.3s ease;
+    }
+    .barra-progeso:hover {
+      transform: scaleY(1.2); /* Agranda la barra en altura */
+    }
+    .barra-progeso .progress-bar {
+  transition: transform 0.3s ease;
+}
+
+.barra-progeso:hover .progress-bar {
+  transform: scaleY(1.1);
+}
 }
 
 
