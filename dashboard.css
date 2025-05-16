@@ -45,6 +45,7 @@ li .nav-link{
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
+   
 }
 .seccion-reportes{
     font-size: 1.55rem;
@@ -236,7 +237,28 @@ li .nav-link{
 }
 
 
-
+/* --USUARIO---- */
+.foto-perfil {
+  width: 400px;        /* Ajusta el tamaño como prefieras */
+  height: auto;
+  border-radius: 660px; /* Bordes redondeados */
+}
+.contenedor-foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.form-label{
+    font-size: 18px;
+    background-color: #584e4e;
+    border-radius: 15px;
+    padding:  5px 20px;
+    text-align: start;
+    margin-bottom: 5px;
+   
+}
 
 /* SECCION NAVBAR */
 @media screen and (max-width: 767px){

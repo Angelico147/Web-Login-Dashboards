@@ -276,23 +276,59 @@
 
         </div>
     </section>
-
+<!-- --Usuario---------------- -->
     <section>
         <h2 class="titulo">USUARIO</h2>
         <p class="seccion-descripcion">Bienvenido a su cuenta </p>
-        <div class="contenedor">
-            <div class="row">
-                <div class="col-md-8">
-                    <div>
-                        <img src="img/perfil/foto-perfil-img.png.jpg" alt="Foto de perfil">
+        <div class="container">
+            <div class="row contenedor-datos">
+                <div class="col-md-8 col-sm-12  contenedor-presentacion">
+                    <div class="contenedor-foto">
+                        <img class="img-fluid foto-perfil" src="img/perfil/foto-perfil-img.jpg" alt="Foto de perfil">
                     </div>
-                    <h2>Ricardo Rodriguez Gutierrez</h2>
+                    <h2 class="titulo"> Ricardo Rodriguez Gutierrez</h2>
                     <p class="seccion-descripcion">Informatico Software y desarrollo web egresado de la universidad Cientefica del Sur
-                        
+
                     </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 ">
+                    <h2 class="titulo">Datos Pesonales</p>
+                    <form>
+                        <div class="row">
+                            <!-- Columna izquierda -->
+                            <div class="col-md-12  formulario-texto">
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre completo</label>
+                                    <input type="text" class="form-control" id="nombre" placeholder="Ej: Ricardo Rodriguez">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="correo" class="form-label">Correo electrónico</label>
+                                    <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="contrasena" class="form-label">Contraseña</label>
+                                    <input type="password" class="form-control" id="contrasena" placeholder="********">
+                                </div>
+                            </div>
 
+                            <!-- Columna derecha -->
+                            <div class="col-md-12  formulario-texto" >
+                                <div class="mb-3">
+                                    <label for="foto" class="form-label">Foto de perfil</label>
+                                    <input class="form-control" type="file" id="foto">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="bio" class="form-label">Biografía</label>
+                                    <textarea class="form-control" id="bio" rows="5" placeholder="Contanos algo sobre vos..."></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Guardar cambios</button>
+                        </div>
+                    </form>
+                    
                 </div>
             </div>
         </div>
